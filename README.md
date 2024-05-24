@@ -5,7 +5,7 @@ etcdUI base on [e3w](https://github.com/soyking/e3w)
 
 ```
 docker-compose up
-# open http://localhost:8080
+# open http://localhost:8181
 ```
 
 ## Overview
