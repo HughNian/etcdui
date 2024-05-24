@@ -1,4 +1,4 @@
-etcdUI base on [e3w](https://github.com/soyking/e3s)
+etcdUI base on [e3w](https://github.com/soyking/e3w)
 ===
 
 ## Quick Start
@@ -7,6 +7,30 @@ etcdUI base on [e3w](https://github.com/soyking/e3s)
 docker-compose up
 # open http://localhost:8080
 ```
+
+## Overview
+
+KEY/VALUE
+
+![](./images/kv.png)
+
+![](./images/key-val.png)
+
+MEMBERS
+
+![](./images/members.png)
+
+ROLES
+
+![](./images/roles.png)
+
+USERS
+
+![](./images/users.png)
+
+SETTING
+
+![](./images/setting.png)
 
 ## Usage
 
