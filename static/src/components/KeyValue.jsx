@@ -131,7 +131,7 @@ const KeyValue = React.createClass({
                     </Breadcrumb>
                 </Box>
                 <Box>
-                    <Box vertical style={{ width: 400, paddingRight: 20 }}>
+                    <Box vertical style={{ width: 180, paddingRight: 20 }}>
                         <Box vertical >
                             {
                                 this.state.list.map(
@@ -143,7 +143,7 @@ const KeyValue = React.createClass({
 
                     {this.state.setting ?
                         (<CommonPanel hint={currentKey} color="#cce4f6"><KeyValueSetting currentKey={currentKey} delete={this._delete} /></CommonPanel>) :
-                        (<CommonPanel hint="CREATE"><KeyValueCreate update={this._update} back={this._back} dir={this.state.dir} fullKey={this._fullKey} /></CommonPanel>) }
+                        (<CommonPanel hint="创建"><KeyValueCreate update={this._update} back={this._back} dir={this.state.dir} fullKey={this._fullKey} /></CommonPanel>) }
                 </Box>
             </Box >
         )

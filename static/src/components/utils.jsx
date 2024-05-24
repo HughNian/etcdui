@@ -14,7 +14,7 @@ const DeleteButton = React.createClass({
 
 const CommonPanel = React.createClass({
     render() {
-        let bColor = this.props.color ? this.props.color : "#ddd"
+        let bColor = this.props.color ? this.props.color : "#1e6897"
         return (
             <Box start flex style={{ paddingLeft: 20, borderLeft: "1px #E6E6E6 solid" }}>
                 <Box vertical style={{ border: "2px solid", borderRadius: 4, width: "100%", borderColor: bColor }}>

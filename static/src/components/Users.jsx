@@ -46,7 +46,7 @@ const Users = React.createClass({
 
     render() {
         return (
-            <AuthPanel title="USERS" items={this.state.users} create={this._createUser} setting={this._setting} delete={this._deleteUser}/>
+            <AuthPanel title="用户" items={this.state.users} create={this._createUser} setting={this._setting} delete={this._deleteUser}/>
         )
     }
 })

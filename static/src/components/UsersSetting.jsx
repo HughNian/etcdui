@@ -96,7 +96,7 @@ const UsersSetting = React.createClass({
         return (
             <Box vertical >
                 <Box vertical style={boxStyle}>
-                    ROLES
+                    角色
                     <Box wrap style={boxStyle}>
                         {
                             this.state.roles.map((r, index) => {

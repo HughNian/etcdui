@@ -48,7 +48,7 @@ const AuthCreate = React.createClass({
                 </div>
                 <Box endJustified>
                     <div style={{ "padding": "15px 0px 15px" }}>
-                        <Button type="primary" size="large" onClick={() => this.props.create(this.state.name)} disabled={this.state.name === ""} > CREATE </Button>
+                        <Button type="primary" size="large" onClick={() => this.props.create(this.state.name)} disabled={this.state.name === ""} >创建</Button>
                     </div>
                 </Box>
             </Box>
@@ -104,13 +104,13 @@ const AuthPanel = React.createClass({
 
     render() {
         let title = this.props.title || ""
-        let panelHint = "CREATE " + title
+        let panelHint = "创建 " + title
         let sidePanel = null
         let withDelete = false
         if (this.state.selectedItem) {
             if (this.props.setting) {
                 sidePanel = this.props.setting(this.state.selectedItem)
-                panelHint = "SETTING"
+                panelHint = "设置"
                 withDelete = true
             }
         } else {

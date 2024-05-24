@@ -44,27 +44,27 @@ const App = React.createClass({
                             style={{
                                 fontSize: 25, fontWeight: 700, marginRight: 20, paddingRight: 20,
                                 borderStyle: "solid", borderWidth: "0px 2px 0px 0px", borderColor: "#ddd",
-                                cursor: "pointer"
+                                cursor: "pointer", color: "#419eda"
                             }}>
-                            E·3·W
+                            ETCD-V3·UI
                         </Box>
                         <Menu onClick={this.handleClick}
                             selectedKeys={[this.state.menu]}
                             mode="horizontal"
-                            style={{ fontWeight: 700, fontSize: 14 }}
+                            style={{ fontWeight: 700, fontSize: 14, color: "#1e6897" }}
                             >
                             <Menu.Item key="kv">
-                                <Icon type="menu-fold" /><span>KEY / VALUE</span>
+                                <Icon type="plus-circle" /><span>键 / 值</span>
                             </Menu.Item>
                             <Menu.Item key="members">
-                                <Icon type="tags" /><span>MEMBERS</span>
+                                <Icon type="tags" /><span>集群成员</span>
                             </Menu.Item>
-                            <Menu.SubMenu key="auth" title={<span><Icon type="team" />AUTH</span>}>
-                                <Menu.Item key="roles">ROLES</Menu.Item>
-                                <Menu.Item key="users">USERS</Menu.Item>
+                            <Menu.SubMenu key="auth" title={<span><Icon type="team" />权限</span>}>
+                                <Menu.Item key="roles">角色</Menu.Item>
+                                <Menu.Item key="users">用户</Menu.Item>
                             </Menu.SubMenu>
                             <Menu.Item key="setting">
-                                <Icon type="setting" /><span>SETTING</span>
+                                <Icon type="setting" /><span>设置</span>
                             </Menu.Item>
                         </Menu>
                     </Box>

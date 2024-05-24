@@ -56,9 +56,9 @@ const KeyValueSetting = React.createClass({
                     <Input type="textarea" rows={4} value={this.state.value} onChange={e => this.setState({ value: e.target.value }) } />
                 </div>
                 <Box justified>
-                    <div className="kv-create-button" ><Button size="large" type="primary" onClick={this._update} >UPDATE</Button></div>
+                    <div className="kv-create-button" ><Button size="large" type="primary" onClick={this._update} >更新</Button></div>
                     <div className="kv-create-button" style={{ paddingRight: 0 }}>
-                        <DeleteButton name="DELETE KEY" delete={this._delete} />
+                        <DeleteButton name="删除键" delete={this._delete} />
                     </div>
                 </Box>
             </Box >

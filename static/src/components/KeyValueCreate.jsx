@@ -49,21 +49,21 @@ const KeyValueCreate = React.createClass({
         return (
             <Box vertical style={{ padding: "10px 7px 0px 7px" }}>
                 <Box stretch style={{ height: 40 }} >
-                    <Input size="large" addonBefore={this.state.dir} placeholder="dir / key name" value={this.state.key} onChange={e => this.setState({ key: e.target.value }) } />
+                    <Input size="large" addonBefore={this.state.dir} placeholder="目录 / 键名" value={this.state.key} onChange={e => this.setState({ key: e.target.value }) } style={{ height: 40 }}/>
                 </Box>
-                <div style={{ width: "100%", paddingTop: 10 }}>
-                    <Input type="textarea" rows={4} value={this.state.value} onChange={e => this.setState({ value: e.target.value }) } />
+                <div style={{ width: "100%", paddingTop: 10, height: 180 }}>
+                    <Input type="textarea" rows={4} value={this.state.value} onChange={e => this.setState({ value: e.target.value }) } style={{ height: 160 }}/>
                 </div>
                 <Box justified >
                     {
                         <Box>
-                            <div className="kv-create-button" ><Button type="primary" size="large" onClick={this._createKey} disabled={cantClick} > CREATE KEY</Button></div>
-                            <div className="kv-create-button" ><Button type="primary" size="large" onClick={this._createDir} disabled={cantClick}>CREATE DIR</Button></div>
+                            <div className="kv-create-button" ><Button type="primary" ghosts size="large" onClick={this._createKey} disabled={cantClick} >创建键</Button></div>
+                            <div className="kv-create-button" ><Button type="primary" ghost size="large" onClick={this._createDir} disabled={cantClick}>创建目录</Button></div>
                         </Box>
                     }
                     {
                         this.state.dir === "/" ? null :
-                            (<div className="kv-create-button" style={{ paddingRight: 0 }}><DeleteButton name="DELETE DIR" delete={this._deleteDir} /></div>)
+                            (<div className="kv-create-button" style={{ paddingRight: 0 }}><DeleteButton name="删除目录" delete={this._deleteDir} /></div>)
                     }
                 </Box>
             </Box>
