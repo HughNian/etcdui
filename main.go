@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/HughNian/etcdui/conf"
+	"github.com/HughNian/etcdui/e3ch"
+	"github.com/HughNian/etcdui/routers"
 	"github.com/gin-gonic/gin"
-	"github.com/soyking/e3w/conf"
-	"github.com/soyking/e3w/e3ch"
-	"github.com/soyking/e3w/routers"
 	"go.etcd.io/etcd/api/v3/version"
 )
 
 const (
-	PROGRAM_NAME    = "e3w"
+	PROGRAM_NAME    = "etcdui"
 	PROGRAM_VERSION = "0.1.0"
 )
 

@@ -1,10 +1,10 @@
 package routers
 
 import (
+	"github.com/HughNian/etcdui/conf"
+	"github.com/HughNian/etcdui/e3ch"
 	"github.com/gin-gonic/gin"
 	client "github.com/soyking/e3ch"
-	"github.com/soyking/e3w/conf"
-	"github.com/soyking/e3w/e3ch"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

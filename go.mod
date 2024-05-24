@@ -1,4 +1,4 @@
-module github.com/soyking/e3w
+module github.com/HughNian/etcdui
 
 go 1.17
 
