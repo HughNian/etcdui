@@ -25,6 +25,7 @@ _testmain.go
 *.test
 *.prof
 
-e3w
+etcdui
 vendor
 .idea
+conf/
