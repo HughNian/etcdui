@@ -46,7 +46,7 @@ const App = React.createClass({
                                 borderStyle: "solid", borderWidth: "0px 2px 0px 0px", borderColor: "#ddd",
                                 cursor: "pointer", color: "#419eda"
                             }}>
-                            ETCD-V3·UI
+                            📡  <span style={{color:"#040404", marginLeft: 5}}>Nmid</span>-<span style={{color:"#f67125"}}>Discovery</span>
                         </Box>
                         <Menu onClick={this.handleClick}
                             selectedKeys={[this.state.menu]}

@@ -1,4 +1,4 @@
-etcdUI base on [e3w](https://github.com/soyking/e3w)
+Nmid-Discovery UI base on [e3w](https://github.com/soyking/e3w)
 ===
 
 ## Quick Start
@@ -13,8 +13,6 @@ docker-compose up
 KEY/VALUE
 
 ![](./images/kv.png)
-
-![](./images/key-val.png)
 
 MEMBERS
 

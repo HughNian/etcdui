@@ -131,7 +131,7 @@ const KeyValue = React.createClass({
                     </Breadcrumb>
                 </Box>
                 <Box>
-                    <Box vertical style={{ width: 180, paddingRight: 20 }}>
+                    <Box vertical style={{ width: 260, paddingRight: 20 }}>
                         <Box vertical >
                             {
                                 this.state.list.map(
