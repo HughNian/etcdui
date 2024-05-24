@@ -5,7 +5,9 @@ Nmid-Discovery UI base on [e3w](https://github.com/soyking/e3w)
 
 ```
 docker-compose up
-# open http://localhost:8181
+# open http://localhost:8080
+
+这个启动一个e3w现成的docker服务
 ```
 
 ## Overview
