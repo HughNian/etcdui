@@ -1,4 +1,5 @@
-Nmid-Discovery UI base on [e3w](https://github.com/soyking/e3w)
+Nmid-Discovery UI  
+base on [e3w](https://github.com/soyking/e3w),it's etcd v3 web ui
 ===
 
 ## Quick Start
@@ -34,7 +35,7 @@ SETTING
 
 ## Usage
 
-1.Fetch the project `go get github.com/HughNian/etcdui`
+1.Fetch the project `go get github.com/HughNian/nmid-discovery`
 
 2.frontend
 

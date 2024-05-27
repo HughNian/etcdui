@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/HughNian/etcdui/conf"
-	"github.com/HughNian/etcdui/e3ch"
-	"github.com/HughNian/etcdui/routers"
+	"github.com/HughNian/nmid-discovery/conf"
+	"github.com/HughNian/nmid-discovery/e3ch"
+	"github.com/HughNian/nmid-discovery/routers"
 	"github.com/gin-gonic/gin"
 	"go.etcd.io/etcd/api/v3/version"
 )

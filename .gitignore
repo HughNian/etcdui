@@ -26,6 +26,7 @@ _testmain.go
 *.prof
 
 etcdui
+nmid-discovery
 vendor
 .idea
 conf/

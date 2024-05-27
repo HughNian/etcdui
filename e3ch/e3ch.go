@@ -3,7 +3,7 @@ package e3ch
 import (
 	"crypto/tls"
 
-	"github.com/HughNian/etcdui/conf"
+	"github.com/HughNian/nmid-discovery/conf"
 	client "github.com/soyking/e3ch"
 	"go.etcd.io/etcd/client/pkg/v3/transport"
 	clientv3 "go.etcd.io/etcd/client/v3"

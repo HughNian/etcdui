@@ -1,4 +1,4 @@
-module github.com/HughNian/etcdui
+module github.com/HughNian/nmid-discovery
 
 go 1.17
 
